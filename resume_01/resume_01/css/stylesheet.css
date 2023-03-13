@@ -6,7 +6,9 @@ img {
   height: 250px;
 }
 body {
-  
+  background-image: url(/images/cape-town-city-hotels-786x446.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 30px;
   background-color: white;
   font-size: 20px;
@@ -18,7 +20,7 @@ body {
 }
 
 div {
-  background-color: rgb(140, 214, 214);
+  background-color: rgb(53, 252, 252); 
   border-radius: 40px;
   padding: 10px;
   margin: 5px;
@@ -51,7 +53,7 @@ p {
   border-radius: 60px;
   padding: 20px;
   margin: 20px;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 h3 {
@@ -75,21 +77,39 @@ a {
 h1 {
   position: relative;
   left: 400px;
-  
+  font-size: 3vw;
 }
 .hero-image{
   background-image: url(/images/Original.jpg);
   background-repeat: no-repeat;
+  background-blend-mode:normal;
   height: 800px;
+  max-width: 100%;
   background-position: center;
   background-size: cover;
-  position: relative;
+ 
+  
+   position: relative; 
 
 }
 .hero-text{
   text-align: center;
   position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(0, 0, 0);
+}
+
+#myMsg{
+  background-color: transparent;
+  
+}
+
+@media only screen and (max-width:600px) {
+  body{
+    background-color: rgb(57, 56, 57);
+  }
+  
 }
 
